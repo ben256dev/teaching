@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- * -[ ] 0. declare an int and initialize(=) it with a value
- * -[ ] 1. declare another int and initialize(=) it with a value
+ * -[x] 0. declare an int and initialize(=) it with a value
+ * -[x] 1. declare another int and initialize(=) it with a value
  * -[ ] 2. add the two ints and print their sum with printf. what format specifier should you use?
  * -[ ] 3. declare a string
  * -[ ] 4. print the string using printf and the string format specifier
@@ -11,6 +11,8 @@
 
 int main(void)
 {
+	int x = 20;
+	int c = 10;
 	printf("hello world!\n");
 
 	return 0;
