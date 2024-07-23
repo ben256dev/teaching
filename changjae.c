@@ -11,12 +11,13 @@
 
 int main(void)
 {
-	int i = 0;
-	for( i=0;i<10;i++ )
-	{int x = 20;
-	int c = 10;
-	const char* poop = "stinky";
-	printf("%d%s,hello world!\n", x + c, poop);
+	// 'for int i equals zero while i is less than ten i plus plus'
+	for (int i = 0; i < 10; i++)
+	{
+		int x = 20;
+		int c = 10;
+		const char* poop = "stinky";
+		printf("%d%s,hello world!\n", x + c, poop);
 	}
 
 	return 0;
