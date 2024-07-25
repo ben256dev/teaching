@@ -1,44 +1,28 @@
 #include <stdio.h>
+#include <string.h>
 
-/*
- * -[x] 0. declare an int
- * -[x] 1. initialize the int
- * -[x] 2. print the int
- *
- * -[x] 3. declare a string
- * -[x] 4. initialize the string
- * -[x] 5. print the string
- *
- * -[x] 6. write an if statement
- * -[x] 7. write a for loop to do something 5 times
- * -[x] 8. write a while loop to do something 5 times
- *
- * -[x] 9. write a for loop inside a for loop to do something 25 times
-*/
+void print_str(char* str)
+{
+	for (int i=0; str[i] != '\0'; i++)
+		printf("%c", str[i]);
+}
+
+int length_str(char* str)
+{
+	int i;
+	for (i = 0; str[i] != '\0'; i++) {};
+	return i;
+}
 
 int main(void)
 {
-	int a = 3;
-	if (a< 3)
-		printf("perfect\n");
-	for (int i=0; i<5; i++)
-	{
-		for(int j=0; j<5; j++)
-		{
-			printf("i : %d, j : %d\n", i, j);
-		}
-	}
-	
-	int smoothie = 100001;
-	const char* lemon = "ice";
-	printf("%d\n%s\n", smoothie, lemon);
+	print_str("Hello\n");
+	print_str("World\n");
+	print_str("ChatGPT\n");
+	print_str("OpenAI\n");
+	print_str("CStrings\n");
 
-	int w = 0;
-	while (w < 5)
-	{ 
-		printf("this is a while loop\n");
-		w++;
-	}
+	printf("length_str : %d, strlen : %lu\n", length_str("Hello\n"), strlen("Hello\n"));
 
 	return 0;
 }
