@@ -5,9 +5,9 @@
  * -[x] 1. initialize the int
  * -[x] 2. print the int
  *
- * -[ ] 3. declare a string
- * -[ ] 4. initialize the string
- * -[ ] 5. print the string
+ * -[x] 3. declare a string
+ * -[x] 4. initialize the string
+ * -[x] 5. print the string
  *
  * -[ ] 6. write an if statement
  * -[ ] 7. write a for loop to do something 5 times
@@ -20,7 +20,8 @@ int main(void)
 {
 	//int is 4 bytes and 32 bits
 	int smoothie = 100001;
-	printf("%d\n", smoothie);
+	const char* lemon = "ice";
+	printf("%d\n%s\n", smoothie, lemon);
 
 	return 0;
 }
