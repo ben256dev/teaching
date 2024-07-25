@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * -[ ] 0. declare an int
- * -[ ] 1. initialize the int
- * -[ ] 2. print the int
+ * -[x] 0. declare an int
+ * -[x] 1. initialize the int
+ * -[x] 2. print the int
  *
  * -[ ] 3. declare a string
  * -[ ] 4. initialize the string
@@ -18,7 +18,9 @@
 
 int main(void)
 {
-	printf("hello\n");
+	//int is 4 bytes and 32 bits
+	int smoothie = 100001;
+	printf("%d\n", smoothie);
 
 	return 0;
 }
