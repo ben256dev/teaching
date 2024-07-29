@@ -29,4 +29,21 @@ succeeded!
 
 ## Review 2 Results
 ```bash
+$ ./run.sh 
+Guess the random number:
+0
+wrong number dumbass!
+1
+wrong number dumbass!
+2
+wrong number dumbass!
+3
+wrong number dumbass!
+4
+wrong number dumbass!
+5
+wrong number dumbass!
+6
+
+you win!
 ```
