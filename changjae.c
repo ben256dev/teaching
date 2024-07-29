@@ -7,6 +7,7 @@ int main(void)
 	a = 7;
 	b = 3;
 	c = a / b;
+	d = a - b;
 
 	return 0;
 }
