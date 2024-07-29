@@ -15,7 +15,7 @@
 - [x] 2. Initialize a and b using odd numbers (1, 3, 5, 7, ...)
 - [x] 3. Set c equal to a / b
 - [x] 4. Set d equal to a - b
-- [ ] 5. Set f equal to c * d
+- [x] 5. Set f equal to c * d
 
 ## Review 1 Results
 ```bash

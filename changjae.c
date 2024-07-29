@@ -8,6 +8,7 @@ int main(void)
 	b = 3;
 	c = a / b;
 	d = a - b;
+	f = c * d;
 
 	return 0;
 }
