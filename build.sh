@@ -1,5 +1,5 @@
 printf 'building... '
-gcc changjae.c -lncursesw -ldl -lpthread -lm -o changjae.exe
+gcc changjae.c -o changjae.exe
 
 if [ $? -eq 0 ]; then
 	printf 'succeeded!\n'
