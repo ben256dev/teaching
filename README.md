@@ -11,11 +11,11 @@
 
 ### Review 2
 
-- [ ] 1. Declare ints, a, b, c, d, e, f
-- [ ] 2. Initialize a and b using odd numbers (1, 3, 5, 7, ...)
-- [ ] 3. Set c equal to a / b
-- [ ] 4. Set d equal to a - b
-- [ ] 5. Set f equal to c * d
+- [x] 1. Declare ints, a, b, c, d, e, f
+- [x] 2. Initialize a and b using odd numbers (1, 3, 5, 7, ...)
+- [x] 3. Set c equal to a / b
+- [x] 4. Set d equal to a - b
+- [x] 5. Set f equal to c * d
 
 ## Review 1 Results
 ```bash
