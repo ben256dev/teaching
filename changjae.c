@@ -1,19 +1,22 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-#include <time.h>
 
 
 int main(void)
 {
 
-	printf("Hello World!\n");
 	int a;
-	const char* b;
+	char bacon[64];
 	
-	int a = rand() % 10;
-	 scanf("%d");
+	printf("Hello World!\n");
 
+	a = rand() % 10;
+	scanf("%s", bacon);
+
+	printf("%d\n", a);
+	printf("%s\n", bacon);
+ 
+	
 	return 0;
 }
 

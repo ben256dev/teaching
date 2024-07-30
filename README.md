@@ -4,18 +4,13 @@
 
 ### Review 1
 
-- [x] 1. Declare and initialize an array of ints
-- [x] 2. Use a for loop to print every element of the array using the integer format specifier
-- [x] 3. Declare 5 different strings
-- [x] 4. Print each of strings using only the character format specifier
-
-### Review 2
-
-- [x] 1. Declare ints, a, b, c, d, e, f
-- [x] 2. Initialize a and b using odd numbers (1, 3, 5, 7, ...)
-- [x] 3. Set c equal to a / b
-- [x] 4. Set d equal to a - b
-- [x] 5. Set f equal to c * d
+- [x] 1. Print hello world! with a newline
+- [x] 2. Declare an int
+- [x] 3. Declare a string
+- [x] 4. Use rand() to set the value of the int between 0 and 9 (0, 1, ..., 8, 9)
+- [x] 5. Use scanf to set the value of the string
+- [x] 6. Print the int
+- [x] 7. Print the string
 
 ## Review 1 Results
 ```bash
@@ -29,4 +24,9 @@ succeeded!
 
 ## Review 2 Results
 ```bash
+./run.sh
+Hello World!
+gram
+7
+gram
 ```
