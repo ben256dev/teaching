@@ -4,7 +4,7 @@
 
 ### Review 1
 
-- [ ] 1. Print hello world! with a newline
+- [x] 1. Print hello world! with a newline
 - [ ] 2. Declare an int
 - [ ] 3. Declare a string
 - [ ] 4. Use rand() to set the value of the int between 0 and 9 (0, 1, ..., 8, 9)
