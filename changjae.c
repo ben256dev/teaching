@@ -11,7 +11,8 @@ int main(void)
 	int a;
 	const char* b;
 	
-	int a = rand() % 10
+	int a = rand() % 10;
+	 scanf("%d");
 
 	return 0;
 }
