@@ -11,6 +11,8 @@ int main(void)
 	my_int = rand() % 10;
 	scanf("%s", my_string);
 
+	printf("%d\n", my_int);
+
 	return 0;
 }
 
