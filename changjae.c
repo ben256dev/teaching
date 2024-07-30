@@ -12,6 +12,7 @@ int main(void)
 	scanf("%s", my_string);
 
 	printf("%d\n", my_int);
+	printf("%s\n", my_string);
 
 	return 0;
 }
