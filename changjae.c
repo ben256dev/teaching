@@ -4,11 +4,12 @@
 int main(void)
 {
 	int my_int;
-	const char* my_string;
-
-	my_int = rand() % 10;
+	char my_string[64];
 
 	printf("hello world!\n");
+
+	my_int = rand() % 10;
+	scanf("%s", my_string);
 
 	return 0;
 }
