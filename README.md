@@ -1,32 +1,19 @@
 ## Review
 
-##### 29 07 2024
+##### 08 08 2024
 
-### Review 1
+### Review Steps
 
-- [x] 1. Print hello world! with a newline
-- [x] 2. Declare an int
-- [x] 3. Declare a string
-- [x] 4. Use rand() to set the value of the int between 0 and 9 (0, 1, ..., 8, 9)
-- [x] 5. Use scanf to set the value of the string
-- [x] 6. Print the int
-- [x] 7. Print the string
+- [ ] 1. Declare and initialize a 1d array of ints
+- [ ] 2. Declare and initialize a 2d array of ints
+- [ ] 3. Write for loop to print the 1d array
+- [ ] 4. Write for loop to print the 2d array
 
-## Review 1 Results
+## Review Results
 ```bash
-bacon
-eggs
-ham
-cheese
-bread
-succeeded!
-```
-
-## Review 2 Results
-```bash
-./run.sh
-Hello World!
-gram
-7
-gram
+$ ./run.sh 
+ 4 7 8 3
+ 90 67 86 18
+ 48 78 29 34
+ 24 84 56 38
 ```
