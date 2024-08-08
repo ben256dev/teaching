@@ -13,6 +13,13 @@ int main(void)
 	for (int i = 0; i < 4; i++)
 		printf(" %d", small_numbers[i]);
 	printf("\n");
+
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 4; j++)
+			printf(" %d", many_big_numbers[i][j]);
+		printf("\n");
+	}
 	
 	return 0;
 }
