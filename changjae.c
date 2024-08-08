@@ -3,17 +3,19 @@
 
 int main(void)
 {
-	int my_int;
-	char my_string[64];
 
-	printf("hello world!\n");
+	int a;
+	char bacon[64];
+	
+	printf("Hello World!\n");
 
-	my_int = rand() % 10;
-	scanf("%s", my_string);
+	a = rand() % 10;
+	scanf("%s", bacon);
 
-	printf("%d\n", my_int);
-	printf("%s\n", my_string);
-
+	printf("%d\n", a);
+	printf("%s\n", bacon);
+ 
+	
 	return 0;
 }
 

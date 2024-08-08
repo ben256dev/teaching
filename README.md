@@ -14,9 +14,4 @@
 
 ## Review 1 Results
 ```bash
-$ ./run.sh 
-hello world!
-pussy   
-3
-pussy
 ```
