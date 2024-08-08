@@ -9,6 +9,10 @@ int main(void)
 		{ 48, 78, 29, 34 },
 		{ 24, 84, 56, 38 },
 	};
+
+	for (int i = 0; i < 4; i++)
+		printf(" %d", small_numbers[i]);
+	printf("\n");
 	
 	return 0;
 }
